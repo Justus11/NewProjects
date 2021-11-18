@@ -1,0 +1,1 @@
+Harjoitus tehtävät liittyen javascriptiin
