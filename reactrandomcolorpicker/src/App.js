@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../App.js';
-class Random extends React.Component {
+import Button from './components/Button.js';
+import './App.js';
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { color: [0, 155, 255] };
@@ -50,7 +51,7 @@ class Random extends React.Component {
 }
 
 ReactDOM.render(
-  <Random />,
+  <App />,
   document.getElementById('app')
 );
 export default App;
