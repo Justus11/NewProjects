@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './App.js';
 
 class Random extends React.Component {
     constructor(props) {
