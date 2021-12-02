@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from './components/Button.js';
+import { Button } from './components/Button';
 import './App.js';
 class App extends React.Component {
   constructor(props) {
