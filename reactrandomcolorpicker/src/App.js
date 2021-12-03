@@ -6,7 +6,7 @@ import './App.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { color: [0, 155, 255] };
+    this.state = { color: [0, 150, 255] };
     this.handleClick = this.handleClick.bind(this);
   }
 
