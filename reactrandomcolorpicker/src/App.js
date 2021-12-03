@@ -40,7 +40,7 @@ class App extends React.Component {
     return random;
   }
 
-  handleCLick() {
+  handleClick() {
     this.setState({
       color: this.chooseColor()
     });
